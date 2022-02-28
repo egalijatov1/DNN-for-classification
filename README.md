@@ -9,7 +9,7 @@ set: {70s', 80s', 90s', 00s'}.
 To get familiar with the dataset feature distributions and their correlations were explored. Since there are 90 features, only some of them were analysed individualy. 
 
 #### Data preprocessing
-Experiments showed that best preprocessing technique for features is standardization using [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html) from [sklearn](https://scikit-learn.org/stable/) library. For label [OneHotEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html) was used.
+Experiments showed that best preprocessing technique for features is standardization using [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html) from [sklearn](https://scikit-learn.org/stable/) library. Categorical labels were encoded using [OneHotEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html).
 
 ## NN Architectures
 For this problem only linear layers were used. Many experiments were conducted with different architectures differing in number of hidden layers and number of hidden units. Additionaly, the batch sizes was changed. 
