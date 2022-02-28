@@ -1,5 +1,5 @@
 # Million Song Dataset classification
-Classification of songs into decade categories using Deep Neural Networks in Tensorflow and Keras.
+Simple classification of songs into decade categories using Deep Neural Networks in Tensorflow and Keras.
 
 ## Data
 For this project a subset of [Milion Song Dataset](http://millionsongdataset.com/) is used. The data set contains features extracted from a variety of songs released in four different decades  (1970s, 1980s, 1990s and 2000s). The training set consists of 40,000 examples (i.e., 10,000 songs from each decade). Each data sample is represented by a 90-dimensional feature vector. The test set contains the same extracted features from a different set of 4,000 songs (1,000 examples from each class). Class labels are indicated by strings from the following
